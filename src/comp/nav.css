@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+   width: 100%; 
+}
+
+.header .top_header{
+    max-width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    background: #f6f7f8;
+}
+
+.header .top_header .icon{
+    margin-left: 20px;
+    color: #ababab;
+    font-size: 20px;
+}
+
+.header .top_header .info p{
+    margin-left: 10px;
+    color: #8a8a8a;
+}
+
+.header .mid_header{
+    display: flex;
+    padding: 20px 40px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .mid_header .logo img{
+    height: 95px;
+    width: 95px;
+    cursor: pointer;
+    object-fit: cover;
+    padding: 10;
+    margin: 0;
+}
+
+.header .mid_header .search_box {
+    padding: 10px;
+}
+
+.header .mid_header .search_box input{
+    padding: 20px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 850px;
+    border: none;
+    border: 1px solid #ababab;
+    height: 50px;
+
+}
+
+.header .mid_header .search_box button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #8c00ff;
+    background: #8c00ff;
+    color: #ffff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 600;
+    
+}
+
+.header .mid_header .search_box button:hover{
+    background: #6e01c8;
+    border: 1px solid #6e01c8;
+    color: #ffff;
+}
+
+.header .mid_header .login button{
+    display:flex;
+    border: none;
+    background: none;
+    border-color: none; 
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.header .mid_header .comparison button{
+    display:flex;
+    border: none;
+    background: none;
+    border-color: none; 
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.header .mid_header .fav button{
+    display:flex;
+    border: none;
+    background: none;
+    border-color: none; 
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.header .mid_header .cart button{
+    display:flex;
+    border: none;
+    background: none;
+    border-color: none; 
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.header .mid_header .login button:hover{
+    color: #6e01c8; 
+}
+
+.header .mid_header .comparison button:hover{
+    color: #6e01c8; 
+}
+
+.header .mid_header .fav button:hover{
+    color: #6e01c8; 
+}
+
+.header .mid_header .cart button:hover{
+    color: #6e01c8; 
+}
